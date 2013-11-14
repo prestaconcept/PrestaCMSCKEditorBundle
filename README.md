@@ -2,7 +2,7 @@ PrestaCMSCKEditorBundle
 ======================
 
 [![Build Status](https://secure.travis-ci.org/prestaconcept/PrestaCMSCKEditorBundle.png?branch=master)](http://travis-ci.org/prestaconcept/PrestaCMSCKEditorBundle)
-
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/prestaconcept/PrestaCMSCKEditorBundle/badges/quality-score.png?s=49843af186b540a300705d9f77afa43507253297)](https://scrutinizer-ci.com/g/prestaconcept/PrestaCMSCKEditorBundle/)
 [![Latest Stable Version](https://poser.pugx.org/presta/cms-ckeditor-bundle/v/stable.png)](https://packagist.org/packages/presta/cms-ckeditor-bundle)
 [![Total Downloads](https://poser.pugx.org/presta/cms-ckeditor-bundle/downloads.png)](https://packagist.org/packages/presta/cms-ckeditor-bundle)
 
