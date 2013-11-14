@@ -6,6 +6,9 @@ PrestaCMSCKEditorBundle
 [![Latest Stable Version](https://poser.pugx.org/presta/cms-ckeditor-bundle/v/stable.png)](https://packagist.org/packages/presta/cms-ckeditor-bundle)
 [![Total Downloads](https://poser.pugx.org/presta/cms-ckeditor-bundle/downloads.png)](https://packagist.org/packages/presta/cms-ckeditor-bundle)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/99f33266-2a10-4182-97b8-37c3a30824ec/big.png)](https://insight.sensiolabs.com/projects/99f33266-2a10-4182-97b8-37c3a30824ec)
+[![knpbundles.com](http://knpbundles.com/prestaconcept/PrestaCMSCKEditorBundle/badge)](http://knpbundles.com/prestaconcept/PrestaCMSCKEditorBundle)
+
 #Overview #
 
 PrestaCMSCKEditorBundle Integrates CKEditor in PrestaCMS with SonataMedia and page links.
