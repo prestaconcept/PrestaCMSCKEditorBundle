@@ -1,0 +1,48 @@
+{
+    "name": "presta/cms-ckeditor-bundle",
+    "type": "symfony-bundle",
+    "description": "PrestaCMS CKEditor bundle : Integrates CKEditor in PrestaCMS with SonataMedia and page links",
+    "keywords": ["symfony2", "bundle", "cms", "symfony-cmf", "prestaconcept", "wysiwyg", "ckeditor"],
+    "homepage": "https://github.com/prestaconcept/PrestaCMSCKEditorBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Bastien",
+            "email": "nbastien@prestaconcept.net",
+            "homepage": "http://www.prestaconcept.net/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/ckeditor",
+                "version": "4.2.2",
+                "source": {
+                    "url": "https://github.com/ckeditor/ckeditor-releases.git",
+                    "type": "git",
+                    "reference": "tags/4.2.2/standard"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "tilleuls/ckeditor-sonata-media-bundle": "2.3.*",
+        "presta/composer-public-bundle": "1.*",
+        "ckeditor/ckeditor": "4.2.2"
+    },
+    "suggest": {
+        "presta/cms-core-bundle": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": { "Presta\\CMSCKEditorBundle": "" }
+    },
+    "target-dir": "Presta/CMSCKEditorBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
