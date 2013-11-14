@@ -59,3 +59,7 @@ Released under the MIT License
 [4]: http://prestaconcept.github.io/presta-cms-ckeditor/
 [5]: http://sandbox.prestacms.com/
 [6]: http://sandbox.prestacms.com/admin
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/prestaconcept/prestacmsckeditorbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
