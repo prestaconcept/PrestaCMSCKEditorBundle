@@ -7,7 +7,6 @@ coop_tilleuls_ck_editor_sonata_media:
 
 
 presta_composer_public:
-    symlink: true
     blend:
         ckeditor/ckeditor:
             vendor: ckeditor
