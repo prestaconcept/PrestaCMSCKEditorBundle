@@ -23,6 +23,7 @@ CKEDITOR.dialog.add( 'internalLinkDialog', function ( editor ) {
                         },
                         commit: function( element ) {
                             element.setAttribute( "href", this.getValue() );
+                            element.setAttribute( "data-cke-saved-href", this.getValue() );
                         }
                     }
                 ]
@@ -45,6 +46,10 @@ CKEDITOR.dialog.add( 'internalLinkDialog', function ( editor ) {
             }
 
             this.element = element;
+
+            if ( !this.insertMode ) {
+                this.setupContent( this.element );
+            }
         },
         onOk: function() {
             var dialog = this;
