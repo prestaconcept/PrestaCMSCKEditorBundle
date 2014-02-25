@@ -18,7 +18,8 @@
         } catch (e) {
             //usually fail with but this is not blocking
             //TypeError: Cannot read property 'document' of undefined
-            console.log('destroy-error : ' + e.message);
+            //TypeError: Cannot call method 'hasAttribute' of undefined
+            //console.log('destroy-error : ' + e.message);
         }
         try {
             $.each($('textarea.wysiwyg'), function(index, element) {
@@ -34,7 +35,7 @@
         } catch (e) {
             //usually fail with but this is not blocking
             //TypeError: Cannot read property 'document' of undefined
-            console.log('init-error : ' + e.message);
+            //console.log('init-error : ' + e.message);
         }
     }
 
@@ -45,6 +46,13 @@
         for (elementId in CKEDITOR.instances) {
             $('#'+ elementId).html( CKEDITOR.instances[elementId].getData());
             console.log(elementId,CKEDITOR.instances[elementId].getData())
+            try {
+                CKEDITOR.instances[elementId].destroy(true);
+            } catch (e) {
+                //usually fail with but this is not blocking
+                //TypeError: Cannot read property 'document' of undefined
+                //console.log('destroy-error : ' + e.message);
+            }
         }
     }
 
