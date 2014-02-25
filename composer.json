@@ -10,6 +10,11 @@
             "name": "Nicolas Bastien",
             "email": "nbastien@prestaconcept.net",
             "homepage": "http://www.prestaconcept.net/"
+        },
+        {
+            "name": "Nicolas Joubert",
+            "email": "njoubert@prestaconcept.net",
+            "role": "Maintainer, Developer"
         }
     ],
     "minimum-stability": "dev",
