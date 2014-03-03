@@ -18,25 +18,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "ckeditor/ckeditor",
-                "version": "4.3.1",
-                "source": {
-                    "url": "https://github.com/ckeditor/ckeditor-releases.git",
-                    "type": "git",
-                    "reference": "tags/4.3.1/standard"
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.3.2",
         "tilleuls/ckeditor-sonata-media-bundle": "2.3.*",
         "presta/composer-public-bundle": "1.*",
-        "ckeditor/ckeditor": "4.3.1"
+        "ckeditor/ckeditor": ">=4.3.1"
     },
     "suggest": {
         "presta/cms-core-bundle": "1.0.*"
